@@ -13,16 +13,25 @@ Task Manager
 
 Esta pagina esta creada con fines de organizar mejor cada uno sus tareas a realizar y ver las tareas que fue realizando 
 
-los usuarios pueden realizar las siguientes acciones 
+Los usuarios pueden realizar las siguientes acciones 
 
-Registrarse con usuario y contraseña 
+Registrarse con usuario y contraseña
+
 Si ya esta registrado pueden iniciar sesión
+
 Al iniciar sesión pueden:
+
     Crear nuevas tareas
+    
     Ver el detalle de cada tarea
+    
     Marcar si es importante o no la tarea
+    
     Y marcar como completada cada tarea
+    
 Ver las tareas pendientes
+
 Ver tareas completadas
+
 Buscar tareas que tienen pendientes 
 
