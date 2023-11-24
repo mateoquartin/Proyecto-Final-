@@ -4,7 +4,7 @@
 <main class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3">
-            <!-- Agrega este bloque para mostrar la consulta -->
+
             {% if query %}
                 <p>Resultados de búsqueda para: <strong>{{ query }}</strong></p>
             {% endif %}
@@ -17,10 +17,9 @@
                     <h1 class="text-center display-3 py-5">Tareas Pendientes</h1>
                 {% endif %}
             {% else %}
-                <h1 class="text-center display-3 py-5">No exite tarea para esa busqueda</h1>
+                <h1 class="text-center display-3 py-5">Tareas Pendientes</h1>
             {% endif %}
             
-            <!-- Resto del contenido de la plantilla... -->
             <ul class="list-group">
                 {% for task in tasks %}
                     <a class="list-group-item" href="{% url 'task_detail' task.id %}">
