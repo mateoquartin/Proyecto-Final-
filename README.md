@@ -35,3 +35,8 @@ Ver tareas completadas
 
 Buscar tareas que tienen pendientes 
 
+# Tecnologia Usada
+Front-End
+
+
+
