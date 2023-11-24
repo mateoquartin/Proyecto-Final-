@@ -44,10 +44,18 @@ Framework: Django
 
 Frontend:
 
-HTML: Estructura básica de las páginas.
+HTML: Estructura básica de las páginas
 
-CSS (a través de Bootstrap): Estilo y diseño.
+CSS (a través de Bootstrap): Estilo y diseño
 
-JavaScript (a través de Bootstrap): Interactividad.
+JavaScript (a través de Bootstrap): Interactividad
+
+# Prueba del proyecto 
+
+PruebasProyectoFinal.xlsx
+
+# Video de prueba 
+
+https://www.youtube.com/watch?v=_GeCLGcrfIQ
 
 
