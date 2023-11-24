@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <!-- Agrega este bloque para mostrar la consulta -->
+            {% if query %}
+                <p>Resultados de búsqueda para: <strong>{{ query }}</strong></p>
+            {% endif %}
+
+            {% if tasks %}
+                {% if tasks.0.dia_completado %}
+                    <h1 class="text-center display-3 py-5">Tareas Completadas</h1>
+                    <p>Se marcarán en rojo las tareas IMPORTANTES</p>
+                {% else %}
+                    <h1 class="text-center display-3 py-5">Tareas Pendientes</h1>
+                {% endif %}
+            {% else %}
+                <h1 class="text-center display-3 py-5">No exite tarea para esa busqueda</h1>
+            {% endif %}
+            
+            <!-- Resto del contenido de la plantilla... -->
+            <ul class="list-group">
+                {% for task in tasks %}
+                    <a class="list-group-item" href="{% url 'task_detail' task.id %}">
+                        <header class="d-flex justify-content-between">
+                            {% if task.importante %}
+                                <h1 class="fw-bold text-danger">{{ task.titulo }}</h1>
+                            {% else %}
+                                <h1 class="fw-bold">{{ task.titulo }}</h1>
+                            {% endif %}
+                            <p>{{ task.user.username }}</p>
+                        </header>
+
+                        <p>{{ task.description }}</p>
+
+                        <p>{{ task.dia_completado|date:'M j Y:i' }}</p>
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
