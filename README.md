@@ -3,7 +3,7 @@
 Alumno: Mateo Quartin
 Comision: 56045
 
-Nombre del proyecto 
+# Nombre del proyecto 
 Task Manager
 
 Version
