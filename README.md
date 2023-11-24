@@ -52,7 +52,7 @@ JavaScript (a través de Bootstrap): Interactividad
 
 # Prueba del proyecto 
 
-PruebasProyectoFinal.xlsx
+https://github.com/mateoquartin/Proyecto-Final-/blob/main/PruebasProyectoFinal.xlsx
 
 # Video de prueba 
 
