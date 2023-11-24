@@ -37,12 +37,17 @@ Buscar tareas que tienen pendientes
 
 # Tecnologia Usada
 Backend:
+
 Lenguaje: Python
+
 Framework: Django
 
 Frontend:
+
 HTML: Estructura básica de las páginas.
+
 CSS (a través de Bootstrap): Estilo y diseño.
+
 JavaScript (a través de Bootstrap): Interactividad.
 
 
